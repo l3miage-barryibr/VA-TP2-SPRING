@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 import java.util.Set;
 
 @Repository
-public interface UserRepository extends JpaRepository<UserEntity,String> {
+public interface    UserRepository extends JpaRepository<UserEntity,String> {
 
     Set<UserEntity> findAllByMailContaining(String containing);
+
 }

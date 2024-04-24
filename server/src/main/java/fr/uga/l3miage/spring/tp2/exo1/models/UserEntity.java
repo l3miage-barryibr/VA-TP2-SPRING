@@ -17,6 +17,7 @@ import java.util.Set;
 public class UserEntity {
     @Id
     private String name;
+
     @Email
     private String mail;
 
